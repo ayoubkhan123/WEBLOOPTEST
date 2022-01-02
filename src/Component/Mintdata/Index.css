@@ -10,6 +10,7 @@
 }
 .head{
     text-align: center;
+
 }
 .head h1{
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
@@ -41,6 +42,8 @@
 .content{
     display: flex;
     justify-content:space-around;
+    flex-wrap: wrap;
+
 }
 .photo img{
     margin-top: 40px;

@@ -10,6 +10,7 @@
 }
 .Content{
     text-align: center;
+    flex-wrap: wrap;
 }
 .head{
     font-size: 32px;
