@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.Header{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    height: 50px;
+    background: #41153f;
+    position: fixed;
+    box-shadow: 0 2px 15px #891f85;
+    background: linear-gradient(
+        111.31deg,#090a0b 7.84%,rgba(31,7,82,0) 94.81%),#41153f;
+}
+.row{
+    width: 30%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row img{
+    width: 50px;
+    height: 40px;
+}
+.text{
+    height: 50px;
+    width: 140px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.text h1{
+    font-size: 24px;
+    font-weight: 800;
+    text-shadow: 0 0 7px orchid;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.text h2{
+display: block;
+padding-bottom: 10px;
+line-height: 1;
+color: white;
+font-weight: 300;
+letter-spacing: 4px;
+font-size: 12px;
+}
+.nav-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Links{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.router{
+    margin-left: 300px;
+}
+.button button{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid orchid;
+    color: orchid;
+    cursor: pointer;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    height: 40px;
+    box-shadow: 0 0 15px rgb(218 112 214 / 30%);
+}
+
+
+
+
+/* MEDIA QUERIES START HERE */
+
+
+
+@media(max-width: 1190px){
+   .row{
+       margin-left: 10px;
+   }
+   .router{
+       margin-left: 160px;
+   }
+
+}
+@media(max-width:1050px){
+    .router{
+        margin-left: 60px;
+    }
+}
+@media(max-width:940px){
+    .router{
+        margin-left: 10px;
+    }
+    .Links{
+    font-size: 17px;
+    padding: 0px 20px;
+    }
+}
+@media(max-width:850px){
+    .router{
+        margin-left: 0px;
+    }
+    .Links{
+        font: size 14px;
+        padding: 0px 12px;
+    }
+}
+
+
+
