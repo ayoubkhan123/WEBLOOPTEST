@@ -122,3 +122,11 @@
     text-shadow: none;
     font-size: 20px;
 }
+
+
+
+@media(max-width: 670px){
+    .main-num{
+        display: block;
+    }
+}
