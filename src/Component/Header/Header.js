@@ -40,6 +40,8 @@ function Header() {
         <div className="button">
         <button>Connent to Wallet</button>
         </div>
+        <div className="main-icon"><i class="fas fa-bars"></i></div>
+
 
 
 

@@ -39,7 +39,7 @@ function Mint() {
         </div>
 
             
-        </div>
+     </div>
     )
 }
 

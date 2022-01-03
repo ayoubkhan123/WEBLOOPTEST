@@ -50,6 +50,9 @@ font-weight: 300;
 letter-spacing: 4px;
 font-size: 12px;
 }
+.main-icon{
+    display: none;
+}
 .nav-logo{
     display: flex;
     justify-content: space-around;
@@ -123,17 +126,46 @@ font-size: 12px;
         display: none;
     }
     .Header{
+        width: 100%;
         display: flex;
         justify-content:space-around;
         align-items: center;
     }
     .nav-logo{
         display: flex;
-        justify-content: space-around;
+        width: 100%;
+        justify-content: flex-start;
 
     }
     .row{
-        margin-right: 100px;
+        width: 100%;
+        /* margin-right: 300px; */
+        text-align: left;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    .button{
+        /* display: none; */
+        margin-right: 30px;
+    }
+    .button button{
+        width: 100px;
+        height: 35px;
+        font-size: 10px;
+    }
+    .main-icon{
+        display: block;
+        margin-right: 20px;
+    }
+    .main-icon i{
+        font-size:20px;
+        color: white;
+    }
+}
+
+@media(max-width: 400px){
+    .button{
         display: none;
     }
 }

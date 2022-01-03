@@ -7,7 +7,7 @@ function Content() {
         <div className="content3">
         <h3>Join our Discord Community</h3>
         <p>The best community in this space with +2,000 members, with games, contests, giveaways, scholarships and more to come!</p>
-        <button>Join Now !</button>
+        <button><i class="fab fa-discord"></i>Join Now !</button>
         </div>
             
         </div>

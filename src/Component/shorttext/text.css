@@ -49,7 +49,6 @@ flex-wrap: wrap;
     flex-wrap: wrap;
     height: auto;
     margin: 20px 0px;
-    padding-bottom: 50px;
     width: 200px;
     border: 2px solid black;
     border-bottom-left-radius: 0;
@@ -91,4 +90,11 @@ flex-wrap: wrap;
 color: white;
 padding-top: 50px;
 font-size: 20px;
+}
+
+
+@media(max-width: 900px){
+    .paraa1{
+        padding: 0px 10px;
+    }
 }
