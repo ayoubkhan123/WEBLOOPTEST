@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WEBLOOPTEST/static/css/main.2e036719.css",
+    "main.js": "/WEBLOOPTEST/static/js/main.68b275eb.js",
+    "static/js/787.f91537cd.chunk.js": "/WEBLOOPTEST/static/js/787.f91537cd.chunk.js",
+    "index.html": "/WEBLOOPTEST/index.html",
+    "main.2e036719.css.map": "/WEBLOOPTEST/static/css/main.2e036719.css.map",
+    "main.68b275eb.js.map": "/WEBLOOPTEST/static/js/main.68b275eb.js.map",
+    "787.f91537cd.chunk.js.map": "/WEBLOOPTEST/static/js/787.f91537cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e036719.css",
+    "static/js/main.68b275eb.js"
+  ]
+}
