@@ -1,5 +1,6 @@
 import React from 'react'
 import './Index.css';
+import Robot from "../../Assets/robot.png";
 
 function Mint() {
     return (
@@ -31,7 +32,7 @@ function Mint() {
 
         </div>
         <div className="photo">
-        <img src="http://nigeria.alshumaal.com/static/media/astro.4fbb9c5f.png"/>
+        <img src={Robot}/>
         </div>
 
 

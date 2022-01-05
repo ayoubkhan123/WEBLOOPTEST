@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Header.css";
+import logo from "../../Assets/logo.png";
 import {BrowserRouter as Router, routes, route, Routes, Route, Link} from "react-router-dom";
     
 
@@ -9,7 +10,7 @@ function Header() {
         <div className="Header">
         <div className="nav-logo">
         <div className="row">
-        <img src="	http://nigeria.alshumaal.com/static/media/logo.14c52e78.png"/>
+        <img src={logo}/>
         <div className="text">
         <h1>SOLTHZ</h1>
         <h2>Aku Datusing</h2>

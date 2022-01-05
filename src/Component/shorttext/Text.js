@@ -1,24 +1,28 @@
 import React from 'react';
 import './text.css';
+import img2 from "../../Assets/Cardimgs/team-kie.42819a1d.png";
+import img3 from "../../Assets/Cardimgs/team-marcko.62a26dbc.png";
+import img4 from "../../Assets/Cardimgs/team-rhettn.db021402.png";
+import img5 from "../../Assets/Cardimgs/team-stuxnet.9742ce27.png"
 
 
 
 
 const Sdata =[
     {
-        img: "http://nigeria.alshumaal.com/static/media/male-sloth.19207742.png",
+        img: img3,
         title: "@Aka Datusing"
     },
     {
-        img: "http://nigeria.alshumaal.com/static/media/team-rhettn.db021402.png",
+        img: img4,
         title: "@Mike Dane"
     },
     {
-        img: "http://nigeria.alshumaal.com/static/media/team-stuxnet.9742ce27.png",
+        img: img2,
         title: "@Involver"
     },
     {
-        img: "http://nigeria.alshumaal.com/static/media/team-marcko.62a26dbc.png",
+        img: img5,
         title: "@Juggernaut"
     },
   

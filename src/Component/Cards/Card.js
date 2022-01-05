@@ -1,5 +1,9 @@
 import React from 'react'
 import "./Cards.css";
+import Img1 from "../../Assets/hero2.dd351f01.gif"
+import Img2 from "../../Assets/hero3.3e6d7d4f.gif"
+import Img3 from "../../Assets/hero4.dc80de94.gif"
+import Img4 from "../../Assets/link.gif"
 
 function Card() {
     return (
@@ -11,16 +15,16 @@ function Card() {
 
             <div className="main-cards">
             <div className="card-div">
-            <img src="http://nigeria.alshumaal.com/static/media/hero1.a13e15c7.gif"/>
+            <img src={Img1}/>
             </div>
             <div className="card-div">
-            <img src="http://nigeria.alshumaal.com/static/media/hero2.dd351f01.gif"/>
+            <img src={Img2}/>
             </div>
             <div className="card-div">
-            <img src="http://nigeria.alshumaal.com/static/media/hero3.3e6d7d4f.gif"/>
+            <img src={Img3}/>
             </div>
             <div className="card-div">
-            <img src="http://nigeria.alshumaal.com/static/media/hero4.dc80de94.gif"/>
+            <img src={Img4}/>
             </div>
             
 
